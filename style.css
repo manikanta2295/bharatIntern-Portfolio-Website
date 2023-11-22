@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=DM+Serif+Display&family=Josefin+Sans:ital,wght@0,100;1,700&family=Kanit:ital,wght@1,200&family=Nunito:ital@1&family=Prompt:wght@600&display=swap');
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(1, 0, 2);
+    align-items: center;
+}
+.logo{
+    height: 70px;
+    margin: 10px;
+}
+.right{
+    display: flex;
+   justify-content: right;
+   padding-right: 500px;
+}
+.elements{
+    color:white;
+    margin: 5px;
+    margin-right: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+.elements:hover{
+    color: rgb(61, 134, 223);
+  padding: 3px;
+
+}
+.homepage{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height:90vh;
+}
+.home-left{
+    background-color: rgb(120, 120, 144);
+    margin-right:auto;
+   
+}
+.heading{
+
+   margin: 50px;
+   padding: 50px;
+   color:rgb(255, 255, 255);
+   margin-top: 150px;
+}
+.home-right{
+text-align: center;
+padding: 100px;
+background-color: whitesmoke;
+}
+.name{
+    color: rgb(255, 210, 198);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    padding-right: 400px;
+}
+.Services {
+    text-align: center;
+    color:red;
+    padding: 40px;
+}
+.sub-services{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+}
+.services-card:hover{
+ background-color: rgb(80, 80, 255);
+ margin: 5px;
+
+}
+
+.services-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+  
+}
+.services-card{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 4, 0);
+    margin: 10px;
+    background-color: rgb(255, 143, 45);
+    padding-inline: 30px;
+}
+.contact-details{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-size: small
+    
+    
+
+}
+.social-media-icon{
+    height: 30px;
+    padding:10px;
+}
+.contact-h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+.contact-h2{
+    font-family:monospace;
+    font-size: 15px;
+}
